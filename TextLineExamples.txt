@@ -1,0 +1,16 @@
+
+Arrays.sort(a, (s1,s2) ->  s1.length() - s2.length()); //type inference - выведение типа, т.е. компилятор узнаёт из контекста о типе объектов
+
+executorService.execute(() -> doSomething()); //лямбда для Runnable()
+
+
+//типичный анонимный класс
+new Something(){
+ 	SomeType someSomething(args){
+ 		//body
+ 	}
+}
+
+//В лямбде он заменяется на: (args) -> { body }
+
+
