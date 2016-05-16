@@ -14,3 +14,23 @@ new Something(){
 //В лямбде он заменяется на: (args) -> { body }
 
 
+
+Ссылки на методы:
+1. static						RefType::staticMethod			(args) -> RefType::staricMethod(args)
+2. Bound Instance				expr::instanceMethod			(args) -> expr.instanceMethod(args)
+3. Unbound Instance				RefTypeLLinstanceMethod			(arg0, rest..) -> arg0.instMethod(rest..)
+4. Constructor					ClassName::new					(args) -> new ClassName(args)
+
+
+
+method1(x,y,d -> Math.cos(d));							----->	method1(x,y,Math::cos);
+someList.forEach(entry -> System.out.println(entry));	----->	someList.forEach(System.out::println);
+method2(a,b,c,(d1, d2) -> Math.pow(d1, d2))				----->	method2(a, b, c, Math::pow);
+someStream.reduce(0, (i1,i2) -> Integer.sum(i1,i2));	----->	someStream.reduce(0, Integer::sum);
+method3(foo, bar, (a,b,c) -> Utils.doSomething(a,b,c));	----->	method3(foo, bar, Utils::doSomething);
+method4(() -> Math.random())							----->	method4(Math.random);
+
+
+
+
+
