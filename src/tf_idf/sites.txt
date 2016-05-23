@@ -1,0 +1,9 @@
+http://36.msiu.ru/files/203-xioamehtvkgs.pdf
+https://habrahabr.ru/post/263983/
+http://myencyclopedia.top/blog/2015/10/tf-idf/
+https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7
+https://ru.wikipedia.org/wiki/TF-IDF
+https://ru.wikipedia.org/wiki/Okapi_BM25
+http://trimc-nlp.blogspot.ru/2013/04/tfidf-with-google-n-grams-and-pos-tags.html
+http://jonathanzong.com/blog/2013/02/02/k-means-clustering-with-tfidf-weights
+http://cospi.ru/osobennosti-raboty-algoritma-tf-idf/
