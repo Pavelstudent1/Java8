@@ -14,7 +14,7 @@ public class TestClass {
 		
 		String[] data = {"I love books and films", "I hate books and films"};
 		Set<String> set1 = createSet(MinHash2.cleanString(docs[0]));
-		Set<String> set2 = createSet(MinHash2.cleanString(docs[2]));
+		Set<String> set2 = createSet(MinHash2.cleanString(docs[1]));
 		
 		MinHash3 minHash = new MinHash3(0.01);
 		int[] sig1 = minHash.signature(set1);
