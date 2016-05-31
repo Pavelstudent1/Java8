@@ -1,0 +1,2 @@
+Useful links:
+https://github.com/Vedenin/useful-java-links/tree/master/link-rus
